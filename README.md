@@ -1,2 +1,2 @@
 # quick-game
-Quick python game
+Quick c++ game
