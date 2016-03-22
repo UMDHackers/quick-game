@@ -1,0 +1,58 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+char Map[30][30]= {"#############################",
+                   "#                           #",					
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+                   "#                           #",
+		   "#############################"
+};
+
+bool game_on = true;
+
+
+
+int main() {
+ int x = 0, food_itr; 
+ int food_x = 14, food_y = 14;
+ while(game_on) {
+  system("clear");
+  
+  for(x = 0; x < 30; x++) {
+   if(x == food_x) {
+     for(food_itr
+   }
+   cout<< Map[x] << endl;
+
+
+
+  }
+ }
+ return 0;
+}
